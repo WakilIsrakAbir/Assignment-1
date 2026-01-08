@@ -273,6 +273,10 @@ footer .footer-container .upper-footer{
     justify-content: space-between;
 }
 
+footer .footer-container .upper-footer .footer-logo{
+    cursor: pointer;
+}
+
 footer .footer-container .upper-footer .social{
     color: white;
 }
@@ -286,6 +290,7 @@ footer .footer-container .upper-footer .social p{
 footer .footer-container .upper-footer .social .icons{
     display: flex;
     gap: 15px;
+    cursor: pointer;
 }
 
 footer .footer-container .lower-footer{
