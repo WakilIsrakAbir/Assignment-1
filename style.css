@@ -99,5 +99,65 @@ header nav .menu .t{
     border: 1px solid white;
 }
 
+#Banner .banner-content .Button .w:hover{
+    border: none;
+    background-color: rgb(113, 137, 52);
+}
 
+/* About */
 
+#about{
+    width: 80%;
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#about .about-section .text-part{
+    margin: 30px 0 44px;
+}
+
+#about .about-section .text-part h2{
+    margin-bottom: 16px;
+    font-size: 48px;
+}
+
+#about .about-section .text-part p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627392;
+}
+
+#about .about-section .about-container{
+    /* border: 1px solid red; */
+    width: 300px;
+    padding: 70px 24px ;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#about .about-section .about-container img{
+    background: #F95555;
+    padding: 20px;
+    width: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+
+#about .about-section .about-container h3{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+#about .about-section .about-container p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627392;
+}
+
+#about .about-section .to-flex{
+    display: flex;
+    gap: 24px;
+}
