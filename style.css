@@ -100,8 +100,8 @@ header nav .menu .t{
 }
 
 #Banner .banner-content .Button .w:hover{
-    border: none;
-    background-color: rgb(113, 137, 52);
+    border: 1px solid rgba(48, 184, 104, 1);
+    background-color: rgba(48, 184, 104, 1);
 }
 
 /* About */
@@ -130,7 +130,7 @@ header nav .menu .t{
 
 #about .about-section .about-container{
     /* border: 1px solid red; */
-    width: 300px;
+    width: 322px;
     padding: 70px 24px ;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -160,4 +160,62 @@ header nav .menu .t{
 #about .about-section .to-flex{
     display: flex;
     gap: 24px;
+}
+
+/* Second-Brain */
+
+#Second-Brain{
+    width: 1360px;
+}
+
+#Second-Brain .Second-Brain-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 140px;
+    gap: 60px;
+}
+
+#Second-Brain .Second-Brain-container .Dimag-ki-Batti{
+    width: 600px;
+}
+
+#Second-Brain .Second-Brain-container .The-solution{
+    width: 400px;
+}
+
+#Second-Brain .Second-Brain-container .The-solution h6{
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(48, 184, 104, 1);
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+
+#Second-Brain .Second-Brain-container .The-solution h2{
+    width: 490px; 
+    font-size: 48px;
+    font-weight: bold;  
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+
+#Second-Brain .Second-Brain-container .The-solution p{
+    width: 490px;
+    text-align: left;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+
+#Second-Brain .Second-Brain-container .The-solution h5{
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+    display: flex;
+}
+
+#Second-Brain .Second-Brain-container .The-solution h5 img{
+    margin-right: 10px;
 }
