@@ -39,12 +39,16 @@ header nav .logo{
 header nav .menu{
     display: flex;
     gap: 32px;
-    cursor: pointer;
+}
+
+header nav .menu .t:hover{
+    color: green;
 }
 
 header nav .menu .t{
     font-size: 16px;
     font-weight: 500;
+    cursor: pointer;
 }
 
 /* Hero */
